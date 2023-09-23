@@ -1,0 +1,33 @@
+.profile__change-image {
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+}
+
+@media screen and (max-width: 1059px) {
+  .profile__change-image {
+    height: 240px;
+    width: 240px;
+  }
+}
+  
+@media screen and (max-width: 380px) {
+  .profile__change-image {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.profile__change-image:hover::before {
+    content: url(../../../images/Avatar-item.svg);
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    display: block;
+    position: absolute;
+    top: 47px;
+    left: 47px;
+  }
+  
+

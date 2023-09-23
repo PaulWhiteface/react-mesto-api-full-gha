@@ -1,0 +1,6 @@
+.card__button_active {
+  background-image: url(../../../../images/heart-black.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

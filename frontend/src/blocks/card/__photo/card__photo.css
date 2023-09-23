@@ -1,0 +1,8 @@
+.card__photo {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  max-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  aspect-ratio: 1/1;
+}

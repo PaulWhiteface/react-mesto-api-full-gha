@@ -1,0 +1,25 @@
+.profile__button-photo {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-image: url(../../../images/big-button.svg);
+  margin-left: auto;
+  transition: opacity 0.3s;
+}
+
+@media screen and (max-width: 1059px) {
+  .profile__button-photo {
+  	margin: 32px 0 0;
+    background-image: url(../../../images/big-button2.svg);
+    width: 282px;
+  }
+}
+
+.profile__button-photo:hover {
+  opacity: 60%;
+}
