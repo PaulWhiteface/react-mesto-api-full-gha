@@ -61,7 +61,7 @@ function App() {
   function handleCardDelete(card) {
     api.handleDeleteCard(card._id)
       .then(() => {
-        setCards((cards) => cards.filter((i) => i._id !== card._id))  //Фильтруем так, что в массив отправляются все карточки, кроме удаленной
+        setCards((cards) => cards.filter((i) => i._id !== card._id)); //Фильтруем так, что в массив отправляются все карточки, кроме удаленной
       })
       .catch((err) => {
         console.log(err);
@@ -133,7 +133,7 @@ function App() {
     }
   }, [loggedIn])
 
-  function handleLogIn (email, password) {     //Вход пользователя и сохранение токена
+  function handleLogIn (email, password) {    //Вход пользователя и сохранение токена
     apiAuth.logIn(email, password).then((data) => {
       localStorage.setItem("token", data.token);
       setLoggedIn(true);
