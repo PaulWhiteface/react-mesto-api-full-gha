@@ -43,5 +43,5 @@ class ApiAuth {
   }
 }
 
-const apiAuth = new ApiAuth('http://api.mesto.whiteface.nomoredomainsrocks.ru');
+const apiAuth = new ApiAuth('https://api.mesto.whiteface.nomoredomainsrocks.ru');
 export default apiAuth;
