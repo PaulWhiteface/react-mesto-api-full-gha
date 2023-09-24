@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.10.110
+IP 51.250.10.110
 
 Frontend https://mesto.whiteface.nomoredomainsrocks.ru
 
