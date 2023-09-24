@@ -74,7 +74,7 @@ class Api {
 }
 
   const api = new Api({  // экземпляр класса Api
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://api.mesto.whiteface.nomoredomainsrocks.ru',
   headers: {
     'Content-Type': 'application/json',
   },

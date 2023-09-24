@@ -43,5 +43,5 @@ class ApiAuth {
   }
 }
 
-const apiAuth = new ApiAuth('http://localhost:3000');
+const apiAuth = new ApiAuth('http://api.mesto.whiteface.nomoredomainsrocks.ru');
 export default apiAuth;
